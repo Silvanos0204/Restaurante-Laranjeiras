@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cardapio.css">
+</head>    
+<body>
+
+    <!--Cabeçalho-->
+
+    <header id="cabecalho">
+      <img id="logotipo" src="../imagem/Logotipo final.svg" alt="Logotipo">
+      
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a id="menu" class="nav-link" href="paginainicial.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu" class="nav-link" href="autoposto.html">Auto Posto</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu" class="nav-link" href="cardapio.html">Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu" class="nav-link" href="contato.html">Fale conosco!</a>
+        </li>
+      </ul>
+      
+  </header>
+
+    <!--Conteúdo-->
+
+    <main class="container">
+
+      <div class="row row-cols-1 row-cols-md-2">
+        
+        <div class="col mb-4">
+          <div class="card">
+            <img src="../imagem/Self-service 1.jpg" class="card-img-top" alt="Self-service">
+            <div class="card-body">
+              <h5 class="card-title">SELF-SERVICE</h5>
+              <p class="card-text">Venha conferir o que temos de melhor! Comida quente e saborosa para que você se sirva à vontade!</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Massas</li>
+              <li class="list-group-item">Carnes</li>
+              <li class="list-group-item">Frutas e sobremesas</li>
+            </ul>
+            <div id="preco" class="card-footer bg-transparent border-success"><p>Apenas R$ 27,00</p></div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="../imagem/Rodízio 2.jpg" class="card-img-top" alt="Rodízio">
+            <div class="card-body">
+              <h5 class="card-title">RODÍZIO</h5>
+              <p class="card-text">Não perca a chance de provar carnes da melhor qualidade aos domingos com a família!</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Picanha</li>
+              <li class="list-group-item">Queijo</li>
+              <li class="list-group-item">Costela e muito mais</li>
+            </ul>
+            <div id="preco" class="card-footer bg-transparent border-success"><p>Apenas R$ 40,00 por pessoa</p></div>
+          </div>
+        </div>
+        
+      </div>
+
+        <div id="tituloVariedades" class="card">
+          <div class="card-body">
+            AQUI VOCÊ TEM MUITO MAIS OPÇÕES!
+          </div>
+        </div>
+
+        <div class="card-deck">
+
+          <div class="card">
+            <img src="../imagem/Salgados 1.jpg" class="card-img-top" alt="Salgados">
+            <div class="card-body">
+              <h5 class="card-title">SALGADOS</h5>
+              <p class="card-text">Está apenas de passagem e quer fazer uma boquinha? Temos uma variedade de salgados para você!</p>
+            </div>
+            <div id="preco" class="card-footer bg-transparent border-success"><p>A partir de R$ 4,50</p></div>
+          </div>
+
+          <div class="card">
+            <img src="../imagem/lanche.png" class="card-img-top" alt="Lanches">
+            <div class="card-body">
+              <h5 class="card-title">LANCHES</h5>
+              <p class="card-text">Para você que adora degustar um delicioso hambúrger, frango ou filé!</p>
+            </div>
+            <div id="preco" class="card-footer bg-transparent border-success"><p>A partir de R$ 12,00</p></div>
+          </div>
+
+          <div class="card">
+            <img src="../imagem/suco de laranja.jpg" class="card-img-top" alt="Bebidas">
+            <div class="card-body">
+              <h5 class="card-title">BEBIDAS</h5>
+              <p class="card-text">Nada mais justo do que beber algo refrescante e revigorante durante as refeições, não é mesmo?</p>
+            </div>
+            <div id="preco" class="card-footer bg-transparent border-success"><p>Sucos a partir de R$ 5,00 <br>Cafetria: a partir de R$ 3,50</p></div>
+          </div>
+
+        </div>
+
+    </main>
+
+    <!--Rodapé-->
+
+    <footer>
+      <main>
+        <div id="div1">
+         <p>Este site foi desenvolvido por:<br>  Diogo Zambam Moreira<br>  Jorge Aparecido Paladini dos Santos Junior<br>  Leonardo Freire Novaes da Silva<br>  Silvio Nogueira Junior</p>
+         <br>
+         <p>Entre em contato conosco!</p>
+         <br>
+         E-MAIL: raplaranjeiras@gmail.com <br> WHATSAPP: (16) 99234-5678
+        </div>
+
+        <div id="div2">
+          <p class="mapa1">LOCALIZAÇÃO<br>Rodovia Washinton Luiz, Km 327, s/n Guariroba, SP, 15903-000</p>
+          <iframe class="mapa2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14850.3652270937!2d-48.5842359!3d-21.484547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0bf05bf6ee07906!2sRestaurante%20Laranjeiras!5e0!3m2!1spt-BR!2sbr!4v1592663569342!5m2!1spt-BR!2sbr" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </main>
+
+      <div id="direitos">
+        Todos os direitos reservados © 2020 | Restaurante e Auto Posto Laranjeiras
+      </div>
+  </footer>
+  
+    <!--JavaScript-->
+
+    <script src="inicial.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>

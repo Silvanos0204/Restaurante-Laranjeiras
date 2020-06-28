@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+    <!--Cabeçalho-->
+
+    <header id="cabecalho">
+      <img id="logotipo" src="../imagem/Logotipo final.svg" alt="Logotipo">
+      
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a id="menu" class="nav-link" href="paginainicial.html">Início</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu" class="nav-link" href="autoposto.html">Auto Posto</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu" class="nav-link" href="cardapio.html">Cardápio</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu" class="nav-link" href="contato.html">Fale conosco!</a>
+        </li>
+      </ul>
+      
+  </header>
+
+    <!--Conteúdo-->
+
+    <main class="container">
+        <h1 id="titulo">Entre em contato conosco e tire suas dúvidas!</h1>
+
+    <!--Formulário-->
+
+    <form id="formulario">
+      <div class="form-group row">
+        <label for="inputName" class="col-sm-2 col-form-label">Primeiro nome</label>
+        <div class="col-sm-10">
+          <input id="campoNome" type="text" class="form-control">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">E-mail</label>
+        <div class="col-sm-10">
+          <input id="email" type="email" class="form-control" id="inputEmail3">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputText" class="col-sm-2 col-form-label">Seu comentário</label>
+        <div class="col-sm-10">
+          <textarea id="campoTexto" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">Conteúdo</legend>
+          <div class="col-sm-10">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+              <label class="form-check-label" for="inlineRadio1">Dúvida</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">Reclamação</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+              <label class="form-check-label" for="inlineRadio3">Sugestão</label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+        
+
+      <div class="form-group row">
+        <div class="col-sm-2">Caixa de checagem</div>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input id="campoCheck" class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Li e aceito todos os termos de uso.
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </form>
+
+    <p id="resposta"></p>
+
+    </main>
+    <!--Rodapé-->
+
+    <footer>
+      <main>
+        <div id="div1">
+         <p>Este site foi desenvolvido por:<br>  Diogo Zambam Moreira<br>  Jorge Aparecido Paladini dos Santos Junior<br>  Leonardo Freire Novaes da Silva<br>  Silvio Nogueira Junior</p>
+         <br>
+         <p>Entre em contato conosco!</p>
+         <br>
+         E-MAIL: raplaranjeiras@gmail.com <br> WHATSAPP: (16) 99234-5678
+        </div>
+
+        <div id="div2">
+          <p class="mapa1">LOCALIZAÇÃO<br>Rodovia Washinton Luiz, Km 327, s/n Guariroba, SP, 15903-000</p>
+          <iframe class="mapa2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14850.3652270937!2d-48.5842359!3d-21.484547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0bf05bf6ee07906!2sRestaurante%20Laranjeiras!5e0!3m2!1spt-BR!2sbr!4v1592663569342!5m2!1spt-BR!2sbr" width="250" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </main>
+
+      <div id="direitos">
+        Todos os direitos reservados © 2020 | Restaurante e Auto Posto Laranjeiras
+      </div>
+  </footer>
+  
+    <!--JavaScript-->
+
+    <script src="contato.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>

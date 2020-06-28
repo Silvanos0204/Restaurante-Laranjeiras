@@ -1,0 +1,140 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Cabeçalho */
+
+body{
+    background-color: rgb(235, 235, 235);
+    color: black;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    height: 120px;
+    background-color: rgb(130, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+}
+
+#logotipo{
+    margin: 10px;
+    width: 20%;
+    height: 100px;
+}
+
+/* Menu */
+
+#menu{
+    color: white;
+}
+
+#menu:hover{
+    color: yellow;
+}
+
+/* Configurações do conteúdo */
+
+.card{
+    margin-top: 20px;
+}
+
+.card-title{
+    color: red;
+}
+
+.card li{
+    color: rgb(110, 110, 110);
+}
+
+.card-text{
+    color: rgb(110, 110, 110);
+}
+
+.card-deck{
+    margin-bottom: 20px;
+}
+
+#preco p{
+    color: red;
+}
+
+.card-img-top{
+    height: 320px;
+}
+
+/* Self-service */
+
+/* Rodízio */
+
+/* Variedades */
+
+#tituloVariedades{
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+#variedade{
+    height: 350px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+#variedade img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 40px;
+}
+
+#variedade h1, p, ul{
+    text-align: center;
+}
+
+#variedade ul{
+    list-style-position: inside;
+}
+
+/* Rodapé */
+
+footer main{
+    background-color: rgb(130, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    height: 320px;
+
+    margin: 0;
+    padding: 0;
+}
+
+#div1{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+#div2{
+    width: 50%;
+    height: 300px;
+    float: right;
+    margin-top: 20px;
+}
+
+#direitos{
+    text-align: center;
+    background-color: rgb(250, 0, 0);
+    color: white;
+    font-size: 15px;
+    height: 20px;
+}
